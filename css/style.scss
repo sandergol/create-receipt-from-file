@@ -1,0 +1,104 @@
+$standard_space: 16px;
+$space: 20px;
+
+body {
+  display: block;
+  padding: 0;
+  margin: 0;
+
+  .container {
+    padding: 0;
+    margin: 26px;
+
+    h1 {
+      text-align: center;
+    }
+
+    p {
+      margin: 0 0 4px;
+    }
+
+    .container-example {
+      display: flex;
+      justify-content: center;
+      margin-bottom: $space;
+
+      a {
+        text-decoration: underline;
+        color: black;
+      }
+    }
+
+    .container-form {
+      display: flex;
+      justify-content: center;
+      background: #FFF5F5;
+      border-radius: $standard_space;
+      padding: $standard_space;
+
+      form {
+        display: flex;
+        align-items: center;
+        margin: 0;
+      }
+
+      .container-input {
+
+        input:not([type="radio"]) {
+          width: 100%;
+        }
+
+        .hint {
+          width: 100%;
+          max-width: 200px;
+          font-size: 14px;
+          opacity: .6;
+          margin-top: 4px;
+          margin-left: 24px;
+        }
+      }
+
+      .container-submit {
+        text-align: center;
+
+        button {
+          background: #FF527D;
+          border: 1px solid #FF527D;
+          height: 40px;
+          border-radius: 8px;
+          color: #ffffff;
+        }
+      }
+    }
+
+    .container-result {
+      overflow-x:auto;
+      margin-top: $space;
+      text-align: center;
+
+      svg {
+        height: 50px;
+      }
+
+      pre {
+        white-space: normal;
+      }
+
+      tr {
+
+        td {
+          text-align: center;
+          padding-bottom: $standard_space;
+
+          &.active, &.count, &.code {
+            min-width: 28px;
+          }
+
+          &.pre {
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}

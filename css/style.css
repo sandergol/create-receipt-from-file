@@ -1,0 +1,80 @@
+body {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+body .container {
+  padding: 0;
+  margin: 26px;
+}
+body .container h1 {
+  text-align: center;
+}
+body .container p {
+  margin: 0 0 4px;
+}
+body .container .container-example {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+body .container .container-example a {
+  text-decoration: underline;
+  color: black;
+}
+body .container .container-form {
+  display: flex;
+  justify-content: center;
+  background: #FFF5F5;
+  border-radius: 16px;
+  padding: 16px;
+}
+body .container .container-form form {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+body .container .container-form .container-input input:not([type=radio]) {
+  width: 100%;
+}
+body .container .container-form .container-input .hint {
+  width: 100%;
+  max-width: 200px;
+  font-size: 14px;
+  opacity: 0.6;
+  margin-top: 4px;
+  margin-left: 24px;
+}
+body .container .container-form .container-submit {
+  text-align: center;
+}
+body .container .container-form .container-submit button {
+  background: #FF527D;
+  border: 1px solid #FF527D;
+  height: 40px;
+  border-radius: 8px;
+  color: #ffffff;
+}
+body .container .container-result {
+  overflow-x: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+body .container .container-result svg {
+  height: 50px;
+}
+body .container .container-result pre {
+  white-space: normal;
+}
+body .container .container-result tr td {
+  text-align: center;
+  padding-bottom: 16px;
+}
+body .container .container-result tr td.active, body .container .container-result tr td.count, body .container .container-result tr td.code {
+  min-width: 28px;
+}
+body .container .container-result tr td.pre {
+  text-align: left;
+}
+
+/*# sourceMappingURL=style.css.map */
